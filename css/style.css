@@ -6,27 +6,27 @@
 
 @font-face {
   font-family: "Kiona";
-  src: url("/assets/fonts/Kiona-Regular.ttf");
+  src: url("../assets/fonts/Kiona-Regular.ttf");
 }
 
 @font-face {
   font-family: "Porto";
-  src: url("/assets/fonts/Porto 400.ttf");
+  src: url("../assets/fonts/Porto 400.ttf");
 }
 
 @font-face {
   font-family: "Modeka";
-  src: url("/assets/fonts/Modeka.otf");
+  src: url("../assets/fonts/Modeka.otf");
 }
 
 @font-face {
   font-family: "Omega-Sans";
-  src: url("/assets/fonts/Omega+Sans+Regular.ttf");
+  src: url("../assets/fonts/Omega+Sans+Regular.ttf");
 }
 
 @font-face {
   font-family: "Cotta";
-  src: url("/assets/fonts/cotta-free.otf");
+  src: url("../assets/fonts/cotta-free.otf");
 }
 
 /* Keyframes */
@@ -72,7 +72,7 @@ body {
   overflow-x: hidden;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/images/bg.png");
+    url("../assets/images/bg.png");
   background-size: cover;
   background-attachment: fixed;
 }
