@@ -1,0 +1,41 @@
+{
+    "name": "Joseph Morino",
+    "job": "Web Desginer",
+    "desc": "I’m a web designer and a freelancer. I like to create modern designs which are used in User Interface. ",
+    "aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velitbeatae, doloribus minima esse accusantium aliquid! Dolorum excommodi, enim ad voluptatum facere ipsam voluptates delectus utbeatae itaque accusantium. Id soluta fuga harum! Laboriosam quaeducimus recusandae laudantium architecto distinctio.",
+    "phoneNumber": "7206734591",
+    "CVlink": "/assets/pdf/Aneesh Sharma.pdf",
+    "ContactLinks": {
+        "linkedin": "https://linkedin.com",
+        "github": "#",
+        "instagram": "https://instagram.com",
+        "facebook": "#"
+    },
+    "recentWorks": {
+        "work1": {
+            "workName": "Ecommerce Site",
+            "imageUrl": "/assets/images/ecommerce.png",
+            "workDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem architecto aspernatur explicabo molestias omnis laudantium nemo beatae sunt iusto."
+        },
+        "work2": {
+            "workName": "Portfolio",
+            "imageUrl": "/assets/images/portfolio.png",
+            "workDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem architecto aspernatur explicabo molestias omnis laudantium nemo beatae sunt iusto."
+        },
+        "work3": {
+            "workName": "Travel Site",
+            "imageUrl": "/assets/images/travel.png",
+            "workDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem architecto aspernatur explicabo molestias omnis laudantium nemo beatae sunt iusto."
+        },
+        "work4": {
+            "workName": "Educational Notes Site",
+            "imageUrl": "/assets/images/notes.png",
+            "workDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem architecto aspernatur explicabo molestias omnis laudantium nemo beatae sunt iusto."
+        },
+        "work5": {
+            "workName": "Portfolio",
+            "imageUrl": "../assets/images/portfolio2.png",
+            "workDesc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem architecto aspernatur explicabo molestias omnis laudantium nemo beatae sunt iusto."
+        }
+    }
+}

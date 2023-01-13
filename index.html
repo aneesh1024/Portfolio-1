@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="scroll-to-top" data-inviewport="move-up"
+            onclick="topFunction()">
+            <svg width="48" height="48" fill="#ffffff" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 2.25A9.75 9.75 0 0 0 2.25 12c0 5.384 4.365 9.75 9.75 9.75 5.384 0 9.75-4.366 9.75-9.75 0-5.385-4.366-9.75-9.75-9.75Zm3.754 10.5L12.75 9.77v7.011h-1.5V9.77l-3.004 2.98-1.057-1.064L12 6.912l4.81 4.774-1.056 1.064Z">
+                </path>
+            </svg>
+        </div>
+        <div class="navbar">
+            <div class="logo">Joseph
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="active-link link"><span id="home">Home</span>
+                    </li>
+                    <li class="link"><span id="about">About</span>
+                    </li>
+                    <li class="link"><span id="works">Works</span>
+                    </li>
+                    <li class="link"><span id="contact">Contact</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main class="home-page" data-inviewport="fade-in">
+            <h2>Hi there</h2>
+            <h3>I'm <span id="user-name"></span></h3>
+            <p id="user-desc"></p>
+            <button class="btn"><a href="#">Download CV</a></button>
+        </main>
+
+        <main class="about-page" data-inviewport="fade-in">
+
+            <div class="about-section">
+                <h2>About Me</h2>
+                <p class="about-me-para"></p>
+            </div>
+
+            <div class="my-skills">
+                <h2>My Skills</h2>
+                <div>
+                    <div data-inviewport="scale-in" class="html">
+                        <span>HTML</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div data-inviewport="scale-in" class="css">
+                        <span>CSS</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div data-inviewport="scale-in" class="js">
+                        <span>JS</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div data-inviewport="scale-in" class="ui">
+                        <span>UI</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div data-inviewport="scale-in" class="ux">
+                        <span>UX</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div data-inviewport="scale-in" class="seo">
+                        <span>SEO</span>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="works-page" data-inviewport="fade-in">
+            <div class="works-section">
+                <h2>Recent Works</h2>
+                <div class="recent-works">
+
+                </div>
+            </div>
+        </main>
+
+        <main class="contact-page">
+            <div class="contact-heading" data-inviewport="move-right">
+                <h2>Let's have a chat</h2>
+            </div>
+            <div class="contact-container" data-inviewport="move-left">
+                <h3>Send Me a message</h3>
+                <div>
+                    <form>
+
+                        <div class="input-box">
+                            <label for="">Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="input-box">
+                            <label for="">Email</label>
+                            <input type="email">
+                        </div>
+                        <div class="input-box">
+                            <label for="">Your Message</label>
+                            <textarea name="message" cols="20"
+                                rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send</span>
+                            <svg width="28" height="28" fill="#ffffff"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m22.34 10.642-.007-.003-20.02-8.303a1.104 1.104 0 0 0-1.04.1 1.156 1.156 0 0 0-.523.966v5.31a1.125 1.125 0 0 0 .915 1.105l10.919 2.02a.187.187 0 0 1 0 .368L1.665 14.224a1.125 1.125 0 0 0-.915 1.104v5.31a1.105 1.105 0 0 0 .496.924 1.123 1.123 0 0 0 1.066.097l20.02-8.256.008-.004a1.5 1.5 0 0 0 0-2.757Z">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+
+        <footer>
+            <span>© 2023, Aneesh Sharma, All rights reserved, +91 72067
+                34591</span>
+        </footer>
+        <!-- Contact Sidebox -->
+        <div class="contact-struct">
+            <span class="side-btn"><a href="#">Contact Me</a></span>
+            <div class="contact-box">
+                <span>
+                    <a href="#" id="phone-number"><svg width="28" height="28"
+                            fill="#b0b0b0" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.327 22.5c-.915 0-2.2-.331-4.125-1.407-2.34-1.312-4.15-2.524-6.478-4.846-2.245-2.243-3.337-3.695-4.865-6.476C1.132 6.63 1.426 4.984 1.755 4.28c.392-.842.97-1.345 1.718-1.844a8.263 8.263 0 0 1 1.343-.712l.13-.057c.231-.105.583-.263 1.028-.094.297.112.562.34.978.75.852.84 2.015 2.71 2.445 3.63.288.619.479 1.028.48 1.486 0 .537-.27.95-.598 1.397l-.182.242c-.356.469-.435.604-.383.846.104.486.884 1.933 2.165 3.212 1.281 1.278 2.686 2.008 3.174 2.112.253.054.39-.027.875-.397.069-.053.14-.107.215-.162.5-.372.894-.635 1.418-.635h.003c.456 0 .847.198 1.493.524.844.426 2.771 1.575 3.616 2.427.412.415.64.679.753.976.169.447.01.797-.094 1.031l-.057.129a8.27 8.27 0 0 1-.716 1.34c-.499.745-1.004 1.322-1.846 1.714a3.16 3.16 0 0 1-1.386.304Z">
+                            </path>
+                        </svg>
+                    </a>
+                </span>
+                <span>
+                    <a href="#" id="insta-link">
+                        <svg width="28" height="28" fill="#b0b0b0"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.375 3.25a4.388 4.388 0 0 1 4.375 4.375v8.75a4.388 4.388 0 0 1-4.375 4.375h-8.75a4.389 4.389 0 0 1-4.375-4.375v-8.75A4.388 4.388 0 0 1 7.625 3.25h8.75Zm0-1.75h-8.75C4.256 1.5 1.5 4.256 1.5 7.625v8.75c0 3.369 2.756 6.125 6.125 6.125h8.75c3.369 0 6.125-2.756 6.125-6.125v-8.75c0-3.369-2.756-6.125-6.125-6.125Z">
+                            </path>
+                            <path
+                                d="M17.688 7.625a1.313 1.313 0 1 1 0-2.625 1.313 1.313 0 0 1 0 2.625Z">
+                            </path>
+                            <path
+                                d="M12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7Zm0-1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5Z">
+                            </path>
+                        </svg>
+                    </a>
+                </span>
+                <span>
+                    <a href="#" id="linkedin-link">
+                        <svg width="28" height="28" fill="#b0b0b0"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.82 1.5H3.294c-.957 0-1.794.69-1.794 1.635v17.566c0 .951.837 1.799 1.794 1.799h17.521c.963 0 1.685-.854 1.685-1.8V3.136c.006-.946-.722-1.635-1.68-1.635ZM8.01 19.005H5V9.65h3.01v9.354ZM6.61 8.228h-.022c-.963 0-1.586-.716-1.586-1.613C5.002 5.7 5.642 5 6.626 5c.984 0 1.587.695 1.608 1.614 0 .897-.624 1.613-1.625 1.613Zm12.395 10.777h-3.009V13.89c0-1.225-.438-2.063-1.526-2.063-.832 0-1.324.563-1.543 1.111-.082.197-.104.465-.104.739v5.328H9.815V9.65h3.008v1.301c.438-.623 1.122-1.52 2.713-1.52 1.975 0 3.469 1.301 3.469 4.108v5.465Z">
+                            </path>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
